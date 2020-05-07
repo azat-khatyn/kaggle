@@ -10,9 +10,8 @@ Practice Skills Creative feature engineering Advanced regression techniques like
 
 #### About this notebook:
 
-This notebook starts with Data Preprocessing (handling target feature values,
-performing feature engineering, whearres some transformations will be performed on merged train and test datasets and others separately to avoid data leakage;
-handle outliers).
+This notebook starts with Data Preprocessing (including handling target feature values,
+performing feature engineering, whereas some transformations are performed on the merged train and test datasets and others separately to avoid data leakage, and handling outliers).
 
 The modelling part of the notebook contains checking baseline single models (Lasso and Ridge Regressions, XGboost and LightGBM, ElasticNet, Support Vector Regression) as well as stack modelling, taking a weighted sum of predictions from different models and attaining and evaluating the final result
 
